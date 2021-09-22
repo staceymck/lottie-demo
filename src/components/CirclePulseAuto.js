@@ -8,7 +8,7 @@ const CirclePulseAuto = () => {
 
   useEffect(() => {
     lottie.loadAnimation({
-      container: container.current,
+      container: container.current, // points to our returned div once content is rendered
       animationData: circlePulse
 
       // Configuration options include...
